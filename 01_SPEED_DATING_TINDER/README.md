@@ -1,7 +1,7 @@
 # 🧾 README – EDA sur le dataset TINDER (ex: Columbia Speed Dating)
 
 ## 🧾 Présentation du projet
-Ce projet présente une analyse exploratoire des données (EDA)** effectuée sur le célèbre dataset du speed dating de l’Université de Columbia, 
+Ce projet présente une analyse exploratoire des données (EDA)** effectuée sur le célèbre dataset du speed dating de l’Université de Columbia datant de 2004, 
 qui contient des informations sur les préférences, les perceptions, et les matchs entre participants lors d’événements de speed dating.
 Il a été renommé TINDER. L'objectif est de faire comme si un site de rencontre avait commandé une étude afin de dégager des insights business. 
 
