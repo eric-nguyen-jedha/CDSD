@@ -9,7 +9,7 @@ Il a été renommé **TINDER**. _ _L'objectif est de faire comme si un site de r
 
 01_SPEED_DATING_TINDER/<br/>
 │<br/>
-├── README.md # Ce fichier<br/>
-├── Speed_Dating_Data.csv # Dataset<br/>
-├── Speed_Dating_Data_Key.doc # Documentation du dataset<br/>
-└── 01_SPEED_DATING_TINDER.ipynb # Notebook Jupyter avec l'analyse complète
+├ -- README.md # Ce fichier<br/>
+├ -- speed_Dating_Data.csv # Dataset<br/>
+├ -- Speed_Dating_Data_Key.doc # Documentation du dataset<br/>
+└ -- 01_SPEED_DATING_TINDER.ipynb # Notebook Jupyter avec l'analyse complète
