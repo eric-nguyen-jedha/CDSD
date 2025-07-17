@@ -7,9 +7,9 @@ Il a été renommé **TINDER**. _ _L'objectif est de faire comme si un site de r
 
 > **Objectif** : Explorer les facteurs d’attraction, comprendre les comportements sociaux, analyser les biais de perception et visualiser les tendances à travers un jeu de données riche et varié.
 
-> 01_SPEED_DATING_TINDER/
-│
-├── README.md # Ce fichier
-├── Speed_Dating_Data.csv # Dataset
-├── Speed_Dating_Data_Key.doc # Documentation du dataset
+> 01_SPEED_DATING_TINDER/<br/>
+│<br/>
+├── README.md # Ce fichier<br/>
+├── Speed_Dating_Data.csv # Dataset<br/>
+├── Speed_Dating_Data_Key.doc # Documentation du dataset<br/>
 └── 01_SPEED_DATING_TINDER.ipynb # Notebook Jupyter avec l'analyse complète
