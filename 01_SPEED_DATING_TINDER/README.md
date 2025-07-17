@@ -31,7 +31,7 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 
 ### 3. **Visualisation interactive**
 - Graphiques Plotly Express : lignes, barres, boxplots, radar
-- Graphiques ventilés par genre (<span style="color:#ec4899;">Ce texte sera en rouge.</span>Femme/'#ec4899' – Homme/'#646ffb')
+- Graphiques ventilés par genre (<span style="color:#ec4899;">Ce texte sera en rouge.</span>Femme/'#ec4899' – Homme/'#646ffb') <p style="color:#FF5733;">Ce texte sera en orange.</p>
 
 ---
 
