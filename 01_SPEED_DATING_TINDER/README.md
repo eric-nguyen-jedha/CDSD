@@ -31,7 +31,7 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 
 ### 3. **Visualisation interactive**
 - Graphiques Plotly Express : lignes, barres, boxplots, radar
-- Graphiques ventilés par genre (<span style="color:#ec4899;">Ce texte sera en rouge.</span>Femme/'#ec4899' – Homme/'#646ffb') <p style="color:#FF5733;">Ce texte sera en orange.</p>
+- Graphiques ventilés par genre (Femme/couleur:'#ec4899' – Homme/couleur:'#646ffb')
 
 ---
 
@@ -56,13 +56,12 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 
 ### 5. **Position dans la soirée**
 - Être **la première personne rencontrée** peut améliorer la probabilité de match (effet de fraîcheur)
-- Mais être **l’un des derniers** partenaires offre aussi un avantage mémoriel
 
 ---
 
 ## 📌 Technologies utilisées
 
-- **Python** : langage principal
+- **Python** : langage principal sous notebook
 - **Pandas** : manipulation des données
 - **Plotly Express / Plotly Graph Objects** : visualisation interactive
 - **Jupyter Notebook** (optionnel) : pour l’analyse exploratoire
@@ -74,7 +73,7 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 
 | Colonne | Description |
 |--------|-------------|
-| `gender` | Genre du participant (0 = Femme, 1 = Homme) |
+| `gender` | Genre du participant (0 = FEMALE, 1 = MALE) |
 | `age` | Âge du participant |
 | `attr1_1`, `sinc1_1`, `intel1_1`, etc. | Ce que le participant recherche chez l’autre (points distribués sur 100) |
 | `attr3_1`, `sinc3_1`, `intel3_1`, etc. | Ce que le participant pense de lui-même (note sur 10) |
@@ -90,7 +89,6 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 - **Boxplots** : Distribution des traits recherchés (`attr1_1`, `sinc1_1`, etc.)
 - **Barres groupées** : Comparaison homme/femme des préférences
 - **Radar chart** : Ce que l'on pense que l'autre recherche
-- **Scatter plots** : Corrélation entre recherche et perception de soi
 - **Graphiques interactifs** : tous les graphiques sont réalisés avec **Plotly**
 
 ---
