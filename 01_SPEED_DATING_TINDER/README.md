@@ -19,7 +19,7 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 ### 1. **Nettoyage des données**
 - Gestion des valeurs manquantes
 - Renommage des colonnes pour plus de lisibilité
-- Transformation des données au format long pour visualisation
+- Transformation des données au format long pour visualisation si indispensable
 
 ### 2. **Analyse exploratoire**
 - Distribution des âges, genres, domaines
@@ -27,11 +27,11 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 - Perception de soi vs ce que l’on pense que les autres recherchent
 - Corrélation entre préférences et succès du match
 - Comparaison entre **match réel** et **match estimé**
-- Analyse des séquences de rencontres (première/finale)
+- Analyse des séquences de rencontres (avant/pendant/après)
 
 ### 3. **Visualisation interactive**
-- Graphiques Plotly Express : barres, boxplots, radar
-- Graphiques ventilés par genre (Femme/Rose – Homme/Bleu)
+- Graphiques Plotly Express : lignes, barres, boxplots, radar
+- Graphiques ventilés par genre (Femme/'#ec4899' – Homme/'#646ffb')
 
 ---
 
