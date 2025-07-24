@@ -7,7 +7,7 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 
 > **Objectif** : Explorer les facteurs d’attraction, comprendre les comportements sociaux, analyser les biais de perception et visualiser les tendances à travers un jeu de données riche et varié.
 
-01_SPEED_DATING_TINDER/<br/>
+01_SPEED_DATING_TINDER
 ```
 ├── 01_SPEED_DATING_TINDER.ipynb            # Le notebook servant à faire tous les EDA
 ├── Speed_Dating_Data_Key.doc               # La documentation officiel du Dataset
