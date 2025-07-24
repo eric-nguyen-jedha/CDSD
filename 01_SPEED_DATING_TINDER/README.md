@@ -85,7 +85,7 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 
 ---
 
-## 📈 Visualisations clés
+## 📈 Exemple de visualisations clés
 
 - **Boxplots** : Distribution des traits recherchés (`attr1_1`, `sinc1_1`, etc.)
 - **Barres groupées** : Comparaison homme/femme des préférences
@@ -94,7 +94,7 @@ Il a été renommé **TINDER**. _L'objectif est de faire comme si un site de ren
 
 ---
 
-## 🧰 Exemple de code pour démarrer
+## 🧰 Code basique pour démarrer
 
 ```bash
 # Installer les dépendances
