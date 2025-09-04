@@ -2,7 +2,7 @@
 
 ## Présentation en ligne de l'intégralité du projet format PPT (en ligne)
 
-  🚀 [Bloc_06 | SKIN CARE | Présentation PPT](https://docs.google.com/presentation/d/1jjPDLllbmfmCwJi0SOWlGYPsyd-dTxhHc0USfRqngQU/edit?usp=sharing)
+  🚀 [Bloc_06 | SKIN CARE | Présentation PPT](https://docs.google.com/presentation/d/1jjPDLllbmfmCwJi0SOWlGYPsyd-dTxhHc0USfRqngQU/edit?usp=sharing)\
   [💻 App Desktop conseillé](https://huggingface.co/spaces/ericjedha/skin_care)
 
 > **Développé par** : [ERIC NGUYEN] | **Date** : 2025
