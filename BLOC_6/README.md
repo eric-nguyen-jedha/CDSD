@@ -72,7 +72,7 @@ Le jeu de données **HAM10000 (Human Against Machine with 10000 training images)
 
 ---
 
-Note : j'ai fait des centaines des notebook pour ce projet et des centaines de modèles, mais je ne mets en ligne que les plus emblématiques.
+Note : j'ai fait des centaines de Notebooks pour ce projet et des centaines de modèles, mais je ne mets en ligne que les plus emblématiques (pour plus d'information, me demander).
 
 ## 📁 Structure du projet 
 ```
