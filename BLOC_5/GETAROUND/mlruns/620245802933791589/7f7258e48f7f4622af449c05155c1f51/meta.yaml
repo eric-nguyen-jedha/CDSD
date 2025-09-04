@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/eric/Desktop/JEDHA/CERTIF/08_GETAROUND/mlruns/620245802933791589/7f7258e48f7f4622af449c05155c1f51/artifacts
+end_time: 1755246516323
+entry_point_name: ''
+experiment_id: '620245802933791589'
+lifecycle_stage: active
+run_id: 7f7258e48f7f4622af449c05155c1f51
+run_name: Linear_Regressor_20250815_102826
+run_uuid: 7f7258e48f7f4622af449c05155c1f51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755246507662
+status: 3
+tags: []
+user_id: eric

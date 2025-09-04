@@ -1,0 +1,57 @@
+# Use Miniconda base image
+FROM continuumio/miniconda3
+
+# Update system and install required packages
+RUN apt-get update && apt-get install -y \
+    nano \
+    unzip \
+    curl \
+ && rm -rf /var/lib/apt/lists/*
+
+# Install AWS CLI v2
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
+    unzip awscliv2.zip && \
+    ./aws/install && \
+    rm -rf awscliv2.zip aws
+
+# Create a new user 'user' (Hugging Face requires a non-root user)
+RUN useradd -m -u 1000 user
+
+# Switch to this user
+USER user
+
+# Define environment variables
+ENV HOME=/home/user \
+    PATH=/home/user/.local/bin:$PATH
+
+# Set the working directory
+WORKDIR $HOME/app
+
+# Copy and install Python dependencies
+COPY requirements.txt /requirements.txt
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r /requirements.txt
+
+# Copy all files into the container
+COPY --chown=user . $HOME/app
+
+# Hugging Face Spaces will set $PORT automatically
+# Secrets (like AWS_ACCESS_KEY_ID) must be added via the Hugging Face UI
+
+# Define environment variables for MLflow and S3
+ARG BACKEND_STORE_URI
+ARG ARTIFACT_STORE_URI
+ARG AWS_ACCESS_KEY_ID
+ARG AWS_SECRET_ACCESS_KEY
+ENV MLFLOW_BACKEND_STORE_URI=$BACKEND_STORE_URI \
+    MLFLOW_DEFAULT_ARTIFACT_ROOT=$ARTIFACT_STORE_URI \
+    AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+    AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+
+# Start the MLflow server
+CMD mlflow server \
+    --host 0.0.0.0 \
+    --port $PORT \
+    --backend-store-uri $BACKEND_STORE_URI \
+    --default-artifact-root $ARTIFACT_STORE_URI \
+    --serve-artifacts
