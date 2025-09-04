@@ -2,7 +2,7 @@
 
 ## Présentation en ligne de l'intégralité du projet
 
-    - 🚀 [Bloc_01 | KAYAK | Présentation PPT](https://docs.google.com/presentation/d/1CRRkYLIsHckPqy6gtIFrKen3oyNKXz50BFBCODDNMXE/edit?usp=sharing)
+🚀 [Bloc_01 | KAYAK | Présentation PPT](https://docs.google.com/presentation/d/1CRRkYLIsHckPqy6gtIFrKen3oyNKXz50BFBCODDNMXE/edit?usp=sharing)
 
 
 ## 📇 Description de l'entreprise
