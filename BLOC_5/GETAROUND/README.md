@@ -119,6 +119,7 @@ access-control-allow-credentials: true
 
 
 ## 📁 Structure du projet 
+
 ```
 ├── GETAROUND_EDA_Threshold.ipynb                  # EDA et calcul du Seuil
 ├── AT&T_CNN.ipynb                                 # Model CNN Maison
@@ -139,13 +140,21 @@ access-control-allow-credentials: true
 ├── requirements_mlflow.txt                        # Requirements.txt pour MLFLOW sur Hugging Face
 ├── README_mlflow.md                               # README.md MLFLOW sur Hugging Face
 ├── img                                            # Ressources visuel Getaround
-└── .env                                           #AWS_ACCESS_KEY_ID=[VOSCREDENTIALS]
-                                                   #AWS_SECRET_ACCESS_KEY=[VOSCREDENTIALS]
-                                                   #AWS_DEFAULT_REGION=[VOSCREDENTIALS]
-                                                   #ARTIFACT_STORE_URI=[URI_S3]
-                                                   #BACKEND_STORE_URI=[URL_POSTGRESQL]
+└── .env                                           
 
 ```
+
+### Crédential à mettre dans .env
+
+#AWS_ACCESS_KEY_ID=[VOSCREDENTIALS]
+#AWS_SECRET_ACCESS_KEY=[VOSCREDENTIALS]
+#AWS_DEFAULT_REGION=[VOSCREDENTIALS]
+#ARTIFACT_STORE_URI=[URI_S3]
+#BACKEND_STORE_URI=[URL_POSTGRESQL]
+
+PS : ne pas oublier Gitignore
+
+
 
 ## 📁 Setting Hugging Frace pour l'API et MLFLOW
 
