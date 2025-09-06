@@ -1,101 +1,146 @@
-# 🧠 Unsupervised Machine Learning Project – The North Face E-commerce
+# Projet de Machine Learning Supervisé : Prévision des Ventes Hebdomadaires chez Walmart
 
 ## Présentation en ligne de l'intégralité du projet format PPT (en ligne)
 
-🚀 [Bloc_03 | THE NORTH FACE | Présentation PPT](https://docs.google.com/presentation/d/1hfvY3ckot4buHsXQ9mwjAD1pvYWUfzSY81Htd5GqJoA/edit?usp=sharing) \
-📁 [Bloc_03 | THE NORTH FACE | Backup GitHub](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_03/NORTH_FACE) \
+🚀 [Bloc_03 | WALMART | Présentation PPT](https://docs.google.com/presentation/d/1AW_Dl0PJczreMpkSzYcI1ZHUWg9_bnoHy80Ia5PpUYU/edit?usp=sharing) \
+📁  [Bloc_03 | WALMART | Backup GitHub](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_03/WALMART)
 
-> *Analyse des descriptions produits pour construire un système de recommandation et découvrir des thèmes cachés dans le catalogue*
+## 🏢 Description de l'entreprise
+Walmart Inc. est une entreprise multinationale américaine spécialisée dans le commerce de détail, exploitant un réseau d’hypermarchés, de grands magasins à prix réduits et d’épiceries. Fondée par Sam Walton en 1962, l’entreprise est basée à Bentonville, Arkansas.
 
----
-
-## 🏢 Description de l'entreprise 📇
-
-**The North Face** est une entreprise américaine spécialisée dans les produits pour les activités de plein air, fondée en 1968 pour approvisionner les alpinistes. La marque conçoit des vêtements, des chaussures et du matériel d'extérieur. À la fin des années 1990, sa clientèle s'est élargie au-delà des passionnés d'activités outdoor, et dans les années 2000, elle est devenue un symbole de style, tout en conservant son expertise technique.
-
-🌐 Site web : [https://www.thenorthface.fr/](https://www.thenorthface.fr/)
+Le service marketing de Walmart souhaite disposer d’un modèle de machine learning capable d’estimer avec précision les **ventes hebdomadaires** dans ses magasins. Ce modèle permettra de mieux comprendre l’impact des indicateurs économiques sur les ventes et d’optimiser la planification des futures campagnes marketing.
 
 ---
 
-## 🚧 Présentation du projet
+## 🎯 Objectifs du projet
+Ce projet vise à construire un modèle prédictif fiable pour estimer les ventes hebdomadaires de Walmart. Il se décompose en trois grandes étapes :
 
-Le département marketing de The North Face souhaite exploiter les **méthodes d'apprentissage non supervisé** pour améliorer l'expérience utilisateur et augmenter les taux de conversion sur son site e-commerce. Deux axes principaux ont été identifiés :
-
-1. **Système de recommandation** : Proposer aux utilisateurs des produits similaires via une section *"Vous pourriez aussi aimer..."* sur chaque page produit.
-2. **Réorganisation du catalogue** : Utiliser la modélisation de thèmes (topic modeling) pour remettre en question les catégories existantes et améliorer la navigation sur le site.
-
-Ce projet consiste à analyser les descriptions produits à l’aide de techniques de **clustering** et de **modélisation de thèmes** afin d’extraire des insights exploitables.
-
----
-
-## 🎯 Objectifs
-
-Le projet est divisé en trois étapes clés :
-
-1. **Identifier des groupes de produits** aux descriptions similaires via un algorithme de clustering.
-2. **Construire un système de recommandation simple** basé sur ces groupes.
-3. **Appliquer une méthode de modélisation de thèmes (LSA)** pour découvrir automatiquement les sujets latents dans les descriptions.
+1. **Analyse exploratoire et préparation des données** (EDA & preprocessing)
+2. **Entraînement d’un modèle de régression linéaire** (modèle de base)
+3. **Réduction du surapprentissage** via un modèle de régression régularisée (Ridge ou Lasso)
 
 ---
 
 ## 🖼️ Périmètre du projet
+Le jeu de données utilisé contient des informations sur les ventes hebdomadaires de plusieurs magasins Walmart, ainsi que des variables économiques et contextuelles telles que :
+- Le taux de chômage
+- Le prix du carburant
+- L’indice des prix à la consommation (CPI)
+- Les jours fériés
+- Des informations temporelles (date)
 
-- **Données** : Corpus de descriptions de produits extraites du catalogue The North Face.
-- **Méthodes** : Traitement du langage naturel (NLP), vectorisation TF-IDF, clustering (DBSCAN), réduction de dimension (TruncatedSVD).
-- **Outils** : Python, `pandas`, `scikit-learn`, `spacy`, `wordcloud`, `matplotlib`.
-
-📥 **Jeu de données** : [👉 Catalogue produits The North Face 👈](#)  
-*sample-data.csv*
-
----
-
-## 🛠️ Méthodologie
-
-### 1. Prétraitement du texte
-- Nettoyage des descriptions (ponctuation, caractères spéciaux, etc.).
-- Suppression des mots vides (stop words) et lemmatisation avec **spaCy**.
-- Vectorisation des textes via la transformation **TF-IDF** (`TfidfVectorizer` de scikit-learn).
-
-### 2. Partie 1 : Clustering des produits
-- Application de l'algorithme **DBSCAN** sur la matrice TF-IDF.
-- Utilisation de la **distance cosine** (adaptée aux textes).
-- Ajustement des paramètres `eps` et `min_samples` pour obtenir **10 à 20 clusters** avec un minimum d’outliers.
-- Visualisation des clusters via des **nuages de mots** pour interpréter leur contenu.
-
-### 3. Partie 2 : Système de recommandation
-- Code python simple qui retourne **5 produits similaires** appartenant au même cluster.
-- Interaction utilisateur via `input()` pour tester le système en temps réel.
-- Sortie : liste d’identifiants de produits suggérés.
-
-### 4. Partie 3 : Modélisation de thèmes (Topic Modeling)
-- Application de **TruncatedSVD** (Analyse Sémantique Latente - LSA) sur la matrice TF-IDF.
-- Choix du nombre de composantes (`n_components`) pour extraire **10 à 20 thèmes**.
-- Attribution du **thème principal** à chaque produit (celui avec le poids le plus élevé).
-- Génération de **nuages de mots par thème** pour faciliter l’interprétation.
-- Sauvegarde de la matrice transformée dans `topic_encoded_df`.
+> 🔎 **Source** : Données issues d’un concours Kaggle, modifiées et fournies via la plateforme JULIE. Assurez-vous d’utiliser **le jeu de données personnalisé : Walmart_Store_Sales.csv** fourni.
 
 ---
 
-## 📬 Livrables
+## 📬 Livrables attendus
+Pour valider ce projet, votre équipe devra fournir les éléments suivants :
 
-✅ Ce projet inclut les livrables suivants :
-
-- [x] Un modèle de **clustering (DBSCAN)** entraîné sur les descriptions produits.
-- [x] Des **nuages de mots par cluster** pour analyser les groupes.
-- [x] Un **système de recommandation fonctionnel** utilisable en interaction.
-- [x] Un modèle de **modélisation de thèmes (TruncatedSVD)** entraîné.
-- [x] Des **nuages de mots par thème latent** pour interpréter les sujets découverts.
+- [X] Des **visualisations pertinentes** issues de l’analyse exploratoire
+- [X] Un **modèle de régression linéaire entraîné** sur les données
+- [X] Une **évaluation des performances** du modèle avec une métrique adaptée (ex: R², RMSE)
+- [X] Une **interprétation des coefficients** pour identifier les variables les plus influentes
+- [X] Un **modèle régularisé (Ridge ou Lasso)** pour réduire le surapprentissage
+- [X] (Optionnel) Une **recherche d’hyperparamètres** via `GridSearchCV`
 
 ---
 
+## 🛠️ Étapes détaillées du projet
 
-### Project Structure
+### Partie 1 : Analyse exploratoire et prétraitement des données
+
+#### 🔍 Analyse exploratoire (EDA)
+Avant toute modélisation, réalisez une analyse exploratoire approfondie :
+- Affichez les **premières lignes** du jeu de données
+- Vérifiez les **types de données**, les **valeurs manquantes**, les **doublons**
+- Calculez des **statistiques descriptives**
+- Créez des **visualisations** :
+  - Distribution des ventes hebdomadaires
+  - Corrélations entre variables
+  - Évolution des ventes dans le temps
+  - Impact des jours fériés sur les ventes
+
+#### 🧹 Prétraitement des données
+
+##### ✅ Nettoyage avec `pandas`
+- **Supprimer les lignes où `Weekly_Sales` est manquant**  
+  → *On n’impute jamais la variable cible !*
+- **Extraire des informations temporelles à partir de la colonne `Date`** :
+  - Année (`Year`)
+  - Mois (`Month`)
+  - Jour (`Day`)
+  - Jour de la semaine (`DayOfWeek`)
+- **Supprimer les outliers** pour les variables numériques suivantes :
+  - `Temperature`, `Fuel_Price`, `CPI`, `Unemployment`
+  - Utiliser le seuil : \( [\bar{X} - 3\sigma, \bar{X} + 3\sigma] \)
+
+##### 🔄 Transformation avec `scikit-learn`
+- **Séparation des variables explicatives (X) et de la cible (y)** :
+  - Cible : `Weekly_Sales`
+- **Identification des types de variables** :
+  - Variables **catégorielles** : `Store`, `Holiday_Flag`
+  - Variables **numériques** : `Temperature`, `Fuel_Price`, `CPI`, `Unemployment`, `Year`, `Month`, `Day`, `DayOfWeek`
+- **Pipeline de preprocessing** :
+  - Utiliser `ColumnTransformer` pour appliquer :
+    - `OneHotEncoder` sur les variables catégorielles
+    - `StandardScaler` (ou pas) sur les numériques selon le modèle utilisé
+
+---
+
+### Partie 2 : Modèle de base (Régression linéaire)
+
+#### 📐 Entraînement du modèle
+- Utiliser `LinearRegression` de `scikit-learn`
+- Diviser les données en **train/test** (ex: 80%/20%)
+- Entraîner le modèle sur l’ensemble d’entraînement
+
+#### 📊 Évaluation des performances
+Utiliser les métriques suivantes :
+- **Coefficient de détermination (R²)** : `model.score(X_test, y_test)`
+- **RMSE (Root Mean Squared Error)** : `np.sqrt(mean_squared_error(y_test, y_pred))`
+- Comparer les scores **train** et **test** pour détecter un éventuel surapprentissage
+
+#### 🔎 Interprétation des coefficients
+- Accéder aux coefficients via `model.coef_`
+- Associer chaque coefficient à sa variable (attention à l’ordre après encodage)
+- Identifier les variables **positivement/négativement corrélées** aux ventes
+- Exemple d’interprétation :  
+  > "Une augmentation de 1 point du CPI est associée à une baisse moyenne de X dollars de ventes."
+
+---
+
+### Partie 3 : Lutte contre le surapprentissage (Modèle régularisé)
+
+#### 🛡️ Choix du modèle régularisé
+Deux options possibles :
+- **Ridge** : régularisation L2 → réduit l’amplitude des coefficients
+- **Lasso** : régularisation L1 → peut annuler certains coefficients (utile pour la sélection de variables)
+
+> 📚 Références :
+> - [Ridge Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
+> - [Lasso Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html)
+
+#### 🧪 Entraînement du modèle
+- Entraîner un modèle `Ridge` ou `Lasso`
+- Choisir une valeur initiale pour le paramètre `alpha` (ex: 1.0)
+- Comparer les performances avec le modèle linéaire de base
+
+#### 🔍 Ajustement des hyperparamètres (Bonus)
+Utiliser `GridSearchCV` pour trouver le meilleur `alpha` :
+```python
+from sklearn.model_selection import GridSearchCV
+
+param_grid = {'alpha': [0.1, 1, 10, 100]}
+grid_search = GridSearchCV(Ridge(), param_grid, cv=5, scoring='r2')
+grid_search.fit(X_train, y_train)
+
+best_alpha = grid_search.best_params_['alpha']
+best_model = grid_search.best_estimator_
+
+## 📁 Structure du projet
 
 ```
-the_north_face_ml/
-│
-├── sample-data.csv           #Les Données
-├── THE_NORTH_FACE.ipynb      # Notebook avec Analyse de Cluster, Nuages de mots, système de recommandation  
-└── README.md
+├── WALMART.ipynb                           # Le notebook servant à faire tous les EDA & le modèle
+└── Walmart_Store_Sales.csv                 # Le Dataset 
 
 ```
