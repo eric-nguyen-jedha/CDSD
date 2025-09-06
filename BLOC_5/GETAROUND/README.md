@@ -99,7 +99,7 @@ curl -i -H "Content-Type: application/json" \
 }' \
      https://ericjedha-getaroundapi.hf.space/predict/
 
-```
+```bash
 ## cela devrait renvoyer cette information : 
 
 HTTP/2 200 
@@ -117,11 +117,11 @@ access-control-allow-credentials: true
 
 {"prediction":213.4575958251953}% 
 
-```
+```bash
 
 ## 📁 Structure du projet 
 
-```
+```bash
 ├── GETAROUND_EDA_Threshold.ipynb                  # EDA et calcul du Seuil
 ├── AT&T_CNN.ipynb                                 # Model CNN Maison
 ├── GETAROUND_ML_MLFLOW.ipynb                      # Modèles de regression testé plus enregistrement dans MLFLOW
@@ -143,7 +143,7 @@ access-control-allow-credentials: true
 ├── img                                            # Ressources visuel Getaround
 └── .env                                           
 
-```
+```bash
 
 ### Crédential à mettre dans .env
 
