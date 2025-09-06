@@ -2,7 +2,8 @@
 
 ## Présentation en ligne de l'intégralité du projet format PPT (en ligne)
 
-🚀 [Bloc_05 | GETAROUND | Présentation PPT](https://docs.google.com/presentation/d/1wCPI96G99YUsSORCYo2CMwiioSKZAElyQ0AroEtlyws/edit?usp=sharing)
+🚀 [Bloc_05 | GETAROUND | Présentation PPT](https://docs.google.com/presentation/d/1wCPI96G99YUsSORCYo2CMwiioSKZAElyQ0AroEtlyws/edit?usp=sharing) \
+📁 [Bloc_05 | GETAROUND | Backup GitHub](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_5/GETAROUND) \
 
 ## 🔗 Liens en production
 
