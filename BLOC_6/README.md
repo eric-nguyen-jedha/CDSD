@@ -84,12 +84,13 @@ Note : j'ai fait des centaines des notebook pour ce projet et des centaines de m
 ├── mel.webp                                       # image pour indiquer qu'il y a un "Melanome"
 ├── mel-modere.webp                                # image pour indiquer qu'il y a un risque de "Melanome" modéré
 ├── mel.webp                                       # image pour indiquer qu'il y a un risque de "Melanome" avéré
-├── Protocole-S-Xception-C.ipynb                     # Notebook du modèle Xception
-├── Protocole-S-Resnet50-C.ipynb                     # Notebook du modèle Resnet50
-├── Protocole-S-Densenet201-C.ipynb                  # Notebook du modèle Desnet201
+├── Protocole-S-Xception-C.ipynb                   # Notebook du modèle Xception
+├── Protocole-S-Resnet50-C.ipynb                   # Notebook du modèle Resnet50
+├── Protocole-S-Densenet201-C.ipynb                # Notebook du modèle Desnet201
 ├── Protocole-S-Test-MODELS.ipynb                  # Test des modèles enregistrés et création d'ENSEMBLE
 ├── README_SkinCare.md                             # README.md Appli Skin Care
 ├── requirements.txt                               # Requirements pour faire fonctionner l'application Gradio
+├── BLOC_06_Skin_Care.pdf                          # Version PDF de la présentation PPT
 └── README.md                                          
 
 ```
