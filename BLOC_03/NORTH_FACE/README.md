@@ -97,5 +97,4 @@ the_north_face_ml/
 ├── sample-data.csv           #Les Données
 ├── THE_NORTH_FACE.ipynb      # Notebook avec Analyse de Cluster, Nuages de mots, système de recommandation  
 └── README.md
-
 ```
