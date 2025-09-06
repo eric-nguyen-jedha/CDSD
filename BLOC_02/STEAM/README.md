@@ -51,6 +51,8 @@ Les visualisations ont été créées à l’aide de l’outil de dashboarding i
 
 ## 📁 Structure du projet
 
-
-├── STEAM_Eric_NGUYEN.ipynb                         # copie notebook Databricks à exécuter dans Databricks \
+```
+├── STEAM_Eric_NGUYEN.ipynb                         # copie notebook Databricks à exécuter dans Databricks 
 └── STEAM_Eric_NGUYEN.html                          # Export en HTML du Notebook et des graphiques
+
+```
