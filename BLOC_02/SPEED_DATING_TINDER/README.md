@@ -134,6 +134,7 @@ L’objectif de ce projet est d’explorer les données pour répondre à des qu
 ├── SPEED_DATING_TINDER.ipynb            # Le notebook servant à faire tous les EDA
 ├── Speed_Dating_Data_Key.doc               # La documentation officiel du Dataset
 ├── Speed_Dating_Data.csv                   # Le Dataset 
+├── BLOC_02_SPEED_DATING_TINDER.pdf         # Version PDF de la présentation PPT 
 └── Tinder-Flame-Logo.wine.png              # Le logo de Tinder en png
 
 
