@@ -2,8 +2,9 @@
 
 ## Présentation en ligne de l'intégralité du projet format PPT (en ligne)
 
-  🚀 [Bloc_06 | SKIN CARE | Présentation PPT](https://docs.google.com/presentation/d/1jjPDLllbmfmCwJi0SOWlGYPsyd-dTxhHc0USfRqngQU/edit?usp=sharing)\
-  [💻 App Desktop conseillé](https://huggingface.co/spaces/ericjedha/skin_care)
+🚀 [Bloc_06 | SKIN CARE | Présentation PPT](https://docs.google.com/presentation/d/1jjPDLllbmfmCwJi0SOWlGYPsyd-dTxhHc0USfRqngQU/edit?usp=sharing)\
+📁 [Bloc_06 | SKIN CARE | Backup GitHub](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_6)\
+💻 [App Desktop conseillé](https://huggingface.co/spaces/ericjedha/skin_care)
 
 > **Développé par** : [ERIC NGUYEN] | **Date** : 2025
 
@@ -72,7 +73,7 @@ Le jeu de données **HAM10000 (Human Against Machine with 10000 training images)
 
 ---
 
-Note : j'ai fait des centaines de Notebooks pour ce projet et des centaines de modèles, mais je ne mets en ligne que les plus emblématiques (pour plus d'information, me demander).
+Note : j'ai fait des centaines des notebook pour ce projet et des centaines de modèles, mais je ne mets en ligne que les plus emblématiques.
 
 ## 📁 Structure du projet 
 ```
@@ -83,9 +84,9 @@ Note : j'ai fait des centaines de Notebooks pour ce projet et des centaines de m
 ├── mel.webp                                       # image pour indiquer qu'il y a un "Melanome"
 ├── mel-modere.webp                                # image pour indiquer qu'il y a un risque de "Melanome" modéré
 ├── mel.webp                                       # image pour indiquer qu'il y a un risque de "Melanome" avéré
-├── Protocole-S-Xception.ipynb                     # Notebook du modèle Xception
-├── Protocole-S-resnet50.ipynb                     # Notebook du modèle Resnet50
-├── Protocole-S-Densenet201.ipynb                  # Notebook du modèle Desnet201
+├── Protocole-S-Xception-C.ipynb                     # Notebook du modèle Xception
+├── Protocole-S-Resnet50-C.ipynb                     # Notebook du modèle Resnet50
+├── Protocole-S-Densenet201-C.ipynb                  # Notebook du modèle Desnet201
 ├── Protocole-S-Test-MODELS.ipynb                  # Test des modèles enregistrés et création d'ENSEMBLE
 ├── README_SkinCare.md                             # README.md Appli Skin Care
 ├── requirements.txt                               # Requirements pour faire fonctionner l'application Gradio
