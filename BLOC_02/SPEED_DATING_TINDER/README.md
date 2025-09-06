@@ -7,18 +7,6 @@
 
 > **Projet d’analyse de données** sur les facteurs d’attraction, les comportements sociaux et les biais de perception dans les speed datings.
 
----
-
-## 📁 Structure du projet
-
-```
-├── SPEED_DATING_TINDER.ipynb            # Le notebook servant à faire tous les EDA
-├── Speed_Dating_Data_Key.doc               # La documentation officiel du Dataset
-├── Speed_Dating_Data.csv                   # Le Dataset 
-└── Tinder-Flame-Logo.wine.png              # Le logo de Tinder en png
-
-
-```
 
 ---
 
@@ -137,6 +125,19 @@ L’objectif de ce projet est d’explorer les données pour répondre à des qu
 | `attr`, `sinc`, `intel`, `fun`, `amb`, `shar` | Notes attribuées à chaque critère |
 
 ---
+
+---
+
+## 📁 Structure du projet
+
+```
+├── SPEED_DATING_TINDER.ipynb            # Le notebook servant à faire tous les EDA
+├── Speed_Dating_Data_Key.doc               # La documentation officiel du Dataset
+├── Speed_Dating_Data.csv                   # Le Dataset 
+└── Tinder-Flame-Logo.wine.png              # Le logo de Tinder en png
+
+
+```
 
 ## 📁 Exemple de code pour démarrer
 
