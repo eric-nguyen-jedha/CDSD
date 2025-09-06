@@ -83,10 +83,10 @@ Mesurez les performances à l’aide des métriques suivantes :
 
 ## 📁 Structure du projet 
 ```
-├── AT&T_EDA.ipynb                           # EDA 
-├── AT&T_CNN.ipynb                           # Model CNN Maison
-├── AT&T_GRU.ipynb                           # Modèle sous GRU
-├── Bert-Pytorch.ipynb                       # Modèle sous Bert/Pytorch  
+├── AT&T_EDA.ipynb                              # EDA 
+├── AT&T_CNN.ipynb                              # Model CNN Maison
+├── AT&T_GRU.ipynb                              # Modèle sous GRU
+├── Bert-Pytorch.ipynb                          # Modèle sous Bert/Pytorch  
 ├── distilbert_ATT/                             # Répertoire du modèle sauvegardé
 │   ├── config.json                             # Configuration du modèle
 │   ├── model.safetensors                       # Poids du modèle (format sécurisé)
@@ -95,10 +95,11 @@ Mesurez les performances à l’aide des métriques suivantes :
 │   ├── vocab.txt                               # Vocabulaire complet
 │   ├── special_tokens_map.json                 # Mappage des tokens spéciaux
 │   └── metadata.tsv                            # Métadonnées optionnelles
-├── models/                                   # Répertoire des modèles sauvegardés
-│   ├── spam_model_CNN.h5                        # Modèle CNN
-│   ├── models/spam_model_GRU.h5                 # Mdoèle GRU
+├── models/                                     # Répertoire des modèles sauvegardés
+│   ├── spam_model_CNN.h5                       # Modèle CNN
+│   ├── models/spam_model_GRU.h5                # Mdoèle GRU
 │   ├── tokenizer_config.json                   # Configuration du tokeniseur
+├── BLOC_04_AT&T.pdf                            # Version PDF de la présentation PPT
 └── README.md                                   # fichier README.md
 
 ```
