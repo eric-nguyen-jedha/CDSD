@@ -56,6 +56,7 @@ Comme le projet vient de démarrer, votre équipe ne dispose d'aucune donnée po
 ├── url_final.csv                                   # fichier intermédiaire d'URL des hotels 
 ├── Best-Town-Weather-ForeCast-Best-Hotels.ipynb    # - Notebook final - génération de graphiques et fichiers CSV finalisé destiné à l'équipe Marketing  
 ├── towns_temp_forecast_best_hotels.csv             # Fichier final destiné à être sur S3 et sur RedShift pour partage 
+├── BLOC_01_KAYAK                                   # Version PDF du PPT de présentation
 └── .env.example                                    # fichier exemple d'un point .env à créer
 
 ```
