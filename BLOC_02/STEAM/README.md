@@ -53,6 +53,7 @@ Les visualisations ont été créées à l’aide de l’outil de dashboarding i
 
 ```
 ├── STEAM_Eric_NGUYEN.ipynb                         # copie notebook Databricks à exécuter dans Databricks 
+├── BLOC_02_STEAM.pdf                               # Version PDF de la présentation PPT
 └── STEAM_Eric_NGUYEN.html                          # Export en HTML du Notebook et des graphiques
 
 ```
