@@ -2,7 +2,8 @@
 
 ## Présentation en ligne de l'intégralité du projet format PPT (en ligne)
 
-🚀 [Bloc_02 | TINDER | Présentation PPT](https://docs.google.com/presentation/d/1Blz8gw1r1zTDtSCQCbfhebbiJMEf2dZPgKpXxjYT65I/edit?usp=sharing)
+🚀 [Bloc_02 | TINDER | Présentation PPT](https://docs.google.com/presentation/d/1Blz8gw1r1zTDtSCQCbfhebbiJMEf2dZPgKpXxjYT65I/edit?usp=sharing) \
+📁 [Bloc_02 | TINDER | Backup GitHub](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_02/SPEED_DATING_TINDER)
 
 > **Projet d’analyse de données** sur les facteurs d’attraction, les comportements sociaux et les biais de perception dans les speed datings.
 

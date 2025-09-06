@@ -2,9 +2,11 @@
 
 ## Présentation en ligne de l'intégralité du projet
 
-🚀 [Bloc_02 | STEAM | Présentation PPT](https://docs.google.com/presentation/d/1iA0d8a61Xe0CGdzGdr_txMafjTKgjHRIpyGMY0GhXVs/edit?usp=sharing)
+🚀 [Bloc_02 | STEAM | Présentation PPT](https://docs.google.com/presentation/d/1iA0d8a61Xe0CGdzGdr_txMafjTKgjHRIpyGMY0GhXVs/edit?usp=sharing) \
 
-🔗 [Notebook STEAM Databricks : Analyse exploratoire et macro-tendances](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1888944128040884/2162191964142929/4822527639717588/latest.html)  
+🔗 [Notebook STEAM Databricks : Analyse exploratoire et macro-tendances](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1888944128040884/2162191964142929/4822527639717588/latest.html)  \
+
+🚀 [Bloc_02 | STEAM | Backup GitHub](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_02/STEAM) \
 
 
 ## 📌 Description du projet
