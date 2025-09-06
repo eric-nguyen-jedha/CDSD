@@ -156,6 +156,7 @@ Ces actions pourraient augmenter significativement le taux de conversion à moye
 ├── conversion_predictions.csv                                      # Csv prédictions du meilleur modèle à partir de 
 ├── conversion_data_test_predictions_Eric-Nguyen-DS33-V1.csv        # CSV destiné au Leaderboard Jedha
 ├── tmp                                                             #fichier tmp de dfSummary
+├── BLOC_03_CONVERSION_CHALLENGE_RATE.pdf                           # Version PDF de la présentation PPT
 └── *.pkl                                                           # fichier de sauvegarde du meilleur modèle
 
 ```
