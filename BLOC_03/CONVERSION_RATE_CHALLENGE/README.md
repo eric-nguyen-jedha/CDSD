@@ -2,7 +2,8 @@
 
 ## Présentation en ligne de l'intégralité du projet format PPT (en ligne)
 
-🚀 [Bloc_03 | CONVERSION CHALLENGE RATE | Présentation PPT](https://docs.google.com/presentation/d/1l7D3cePxp5DkGZkV8FC5N3CG_gzhZjMiYuP-MLO1ebQ/edit?usp=sharing)
+🚀 [Bloc_03 | CONVERSION CHALLENGE RATE | Présentation PPT](https://docs.google.com/presentation/d/1l7D3cePxp5DkGZkV8FC5N3CG_gzhZjMiYuP-MLO1ebQ/edit?usp=sharing) \
+📁 [Bloc_03 | CONVERSION CHALLENGE RATE | Backup GitHub](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_03/CONVERSION_RATE_CHALLENGE)
 
 > *Prédire si un utilisateur va s'abonner à www.datascienceweekly.org*
 

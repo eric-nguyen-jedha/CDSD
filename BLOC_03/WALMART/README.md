@@ -2,7 +2,8 @@
 
 ## Présentation en ligne de l'intégralité du projet format PPT (en ligne)
 
-🚀 [Bloc_03 | WALMART | Présentation PPT](https://docs.google.com/presentation/d/1AW_Dl0PJczreMpkSzYcI1ZHUWg9_bnoHy80Ia5PpUYU/edit?usp=sharing)
+🚀 [Bloc_03 | WALMART | Présentation PPT](https://docs.google.com/presentation/d/1AW_Dl0PJczreMpkSzYcI1ZHUWg9_bnoHy80Ia5PpUYU/edit?usp=sharing) \
+📁  [Bloc_03 | WALMART | Backup GitHub](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_03/WALMART)
 
 ## 🏢 Description de l'entreprise
 Walmart Inc. est une entreprise multinationale américaine spécialisée dans le commerce de détail, exploitant un réseau d’hypermarchés, de grands magasins à prix réduits et d’épiceries. Fondée par Sam Walton en 1962, l’entreprise est basée à Bentonville, Arkansas.

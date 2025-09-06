@@ -2,7 +2,8 @@
 
 ## Présentation en ligne de l'intégralité du projet format PPT (en ligne)
 
-🚀 [Bloc_03 | THE NORTH FACE | Présentation PPT](https://docs.google.com/presentation/d/1hfvY3ckot4buHsXQ9mwjAD1pvYWUfzSY81Htd5GqJoA/edit?usp=sharing)
+🚀 [Bloc_03 | THE NORTH FACE | Présentation PPT](https://docs.google.com/presentation/d/1hfvY3ckot4buHsXQ9mwjAD1pvYWUfzSY81Htd5GqJoA/edit?usp=sharing) \
+📁 [Bloc_03 | THE NORTH FACE | Présentation PPT](https://github.com/eric-nguyen-jedha/CDSD/tree/main/BLOC_03/NORTH_FACE) \
 
 > *Analyse des descriptions produits pour construire un système de recommandation et découvrir des thèmes cachés dans le catalogue*
 
