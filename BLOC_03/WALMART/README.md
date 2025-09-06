@@ -141,6 +141,7 @@ best_model = grid_search.best_estimator_
 
 ```
 ├── WALMART.ipynb                           # Le notebook servant à faire tous les EDA & le modèle
+├── BLOC_03_WALMART.pdf                     # Version PDF de la présentation PPT
 └── Walmart_Store_Sales.csv                 # Le Dataset 
 
 ```
