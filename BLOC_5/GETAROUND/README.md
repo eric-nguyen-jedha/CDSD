@@ -141,7 +141,8 @@ access-control-allow-credentials: true
 ├── requirements_mlflow.txt                        # Requirements.txt pour MLFLOW sur Hugging Face
 ├── README_mlflow.md                               # README.md MLFLOW sur Hugging Face
 ├── img                                            # Ressources visuel Getaround
-└── .env                                           
+├── BLOC_05_GETAROUND.pdf                          # Version PDF de la Présentation PPT
+└── .env                                           # Ficher .env vide à compléter                                           
 
 ```bash
 
