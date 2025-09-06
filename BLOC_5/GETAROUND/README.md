@@ -99,7 +99,7 @@ curl -i -H "Content-Type: application/json" \
 }' \
      https://ericjedha-getaroundapi.hf.space/predict/
 
-
+```
 ## cela devrait renvoyer cette information : 
 
 HTTP/2 200 
@@ -117,6 +117,7 @@ access-control-allow-credentials: true
 
 {"prediction":213.4575958251953}% 
 
+```
 
 ## 📁 Structure du projet 
 
