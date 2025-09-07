@@ -24,7 +24,7 @@ Pour toute information m'écrire à : en9.eric [arobase] gmail.com
 └── SOMMAIRE_TOUTES_PRESENTATIONS.pdf  # Copie PDF Sommaire de toutes les présentations PPT en ligne
 
 ```
-## Note sur les README.md
+## 📣 Note sur les README.md
 
 Tous les projets ont un README.md (c'est le README à lire en priorité)\
 Les projets plus volumineux ont divers README_application.md : ce sont des README dédiés aux applications
