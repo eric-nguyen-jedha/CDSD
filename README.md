@@ -6,10 +6,10 @@ Ce github comporte 6 blocs et donne des détails sur chacun des 6 projets permet
 
 Pour toute information m'écrire à : en9.eric [arobase] gmail.com
 
-## ▶️ [URL pour voir toutes les présentations PPT](https://docs.google.com/presentation/d/1TH62jvJ81EuGhyPOMcaa-fmxlmn83qxMUZdGqBGMyLQ/edit?usp=sharing) 
+## ▶️ [URL pour voir toutes les présentations PPT en ligne ☁️](https://docs.google.com/presentation/d/1TH62jvJ81EuGhyPOMcaa-fmxlmn83qxMUZdGqBGMyLQ/edit?usp=sharing) 
 
 ```
 ├── README.md                          # Le README Central de ce GitHUB
-└── 0_PREAMBULE.pdf                    # PDF avec tous les liens vers les présentations PPT en ligne
+└── SOMMAIRE_TOUTES_PRESENTATIONS.pdf  # Copie PDF Sommaire de toutes les présentations PPT en ligne
 
 ```
